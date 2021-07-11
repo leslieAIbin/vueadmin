@@ -1,3 +1,4 @@
-2021-07-11T12:38:00+08:00
-随机数:28969
-提交次数:234
+VueAdmin - 基于SpringBoot+Jwt+Vue的前后端分离后台管理系统
+
+## 技术栈：
+springboot、spring security、myabtis plus、jwt、vue、element-ui
