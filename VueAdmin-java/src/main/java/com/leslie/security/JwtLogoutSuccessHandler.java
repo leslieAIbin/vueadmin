@@ -1,8 +1,8 @@
-package com.markerhub.security;
+package com.leslie.security;
 
 import cn.hutool.json.JSONUtil;
-import com.markerhub.common.lang.Result;
-import com.markerhub.utils.JwtUtils;
+import com.leslie.common.lang.Result;
+import com.leslie.utils.JwtUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;

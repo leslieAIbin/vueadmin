@@ -1,4 +1,4 @@
-package com.markerhub.utils;
+package com.leslie.utils;
 
 import io.jsonwebtoken.*;
 import lombok.Data;
@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Data
 @Component
-@ConfigurationProperties(prefix = "markerhub.jwt")
+@ConfigurationProperties(prefix = "leslie.jwt")
 public class JwtUtils {
 
 	private long expire;

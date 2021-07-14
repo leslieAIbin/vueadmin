@@ -1,4 +1,4 @@
-package com.markerhub.security;
+package com.leslie.security;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -32,8 +32,8 @@ public class AccountUser implements UserDetails {
 
 
 	public AccountUser(Long userId, String username, String password, boolean enabled, boolean accountNonExpired,
-	            boolean credentialsNonExpired, boolean accountNonLocked,
-	            Collection<? extends GrantedAuthority> authorities) {
+					   boolean credentialsNonExpired, boolean accountNonLocked,
+					   Collection<? extends GrantedAuthority> authorities) {
 		Assert.isTrue(username != null && !"".equals(username) && password != null,
 				"Cannot pass null or empty values to constructor");
 		this.userId = userId;

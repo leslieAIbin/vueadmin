@@ -10,7 +10,7 @@ import gobal from "./globalFun"
 Vue.config.productionTip = false
 
 Vue.prototype.$axios = axios //
-require("./mock")  //引入mock数据，关闭则注释该行
+// require("./mock")  //引入mock数据，关闭则注释该行
 
 
 Vue.use(Element)

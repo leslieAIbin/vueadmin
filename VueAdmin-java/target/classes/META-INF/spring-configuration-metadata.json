@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "leslie.jwt",
+      "type": "com.leslie.utils.JwtUtils",
+      "sourceType": "com.leslie.utils.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "leslie.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.leslie.utils.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "leslie.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.leslie.utils.JwtUtils"
+    },
+    {
+      "name": "leslie.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.leslie.utils.JwtUtils"
+    }
+  ],
+  "hints": []
+}

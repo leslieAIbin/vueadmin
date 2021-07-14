@@ -1,6 +1,6 @@
-package com.markerhub.config;
+package com.leslie.config;
 
-import com.markerhub.security.*;
+import com.leslie.security.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -84,7 +84,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 				.antMatchers(URL_WHITELIST).permitAll()
 				.anyRequest().authenticated()
 
-				// 异常处理器
+//				 异常处理器
 				.and()
 				.exceptionHandling()
 				.authenticationEntryPoint(jwtAuthenticationEntryPoint)

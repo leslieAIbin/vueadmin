@@ -1,9 +1,9 @@
-package com.markerhub.security;
+package com.leslie.security;
 
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.markerhub.common.exception.CaptchaException;
-import com.markerhub.common.lang.Const;
-import com.markerhub.utils.RedisUtil;
+import com.leslie.common.exception.CaptchaException;
+import com.leslie.common.lang.Const;
+import com.leslie.utils.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
@@ -45,6 +45,7 @@ public class CaptchaFilter extends OncePerRequestFilter {
 
 	// 校验验证码逻辑
 	private void validate(HttpServletRequest httpServletRequest) {
+
 
 		String code = httpServletRequest.getParameter("code");
 		String key = httpServletRequest.getParameter("token");

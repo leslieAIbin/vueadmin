@@ -3,7 +3,9 @@
         <el-col :xl="6" :lg="7">
             <h2>欢迎来到VueAdmin管理系统</h2>
             <el-image :src="require('@/assets/logo.jpg')" style="height: 180px; width: 180px;"></el-image>
-            <p>IU欢迎您！</p>
+
+
+
 
         </el-col>
 
@@ -30,18 +32,22 @@
             </el-form>
         </el-col>
     </el-row>
+
 </template>
 
 <script>
+
+    import qs from 'qs'
+
     export default {
         name: "Login",
         data() {
             return {
                 loginForm: {
-                    username: '',
-                    password: '',
-                    code:'',
-                    token:''
+                    username: 'admin',
+                    password: '111111',
+                    code: '',
+                    token: ''
                 },
                 rules: {
                     username: [
@@ -54,7 +60,6 @@
                         { required: true, message: '请输入验证码', trigger: 'blur' },
                         { min: 5, max: 5, message: '长度为 5 个字符', trigger: 'blur' }
                     ],
-
                 },
                 captchaImg: null
             };
@@ -63,7 +68,7 @@
             submitForm(formName) {
                 this.$refs[formName].validate((valid) => {
                     if (valid) {
-                        this.$axios.post('/login', this.loginForm).then(res => {
+                        this.$axios.post('/login'+ qs.stringify(this.loginForm)).then(res => {
 
                             console.log(res)
 
@@ -72,6 +77,7 @@
                             this.$store.commit('SET_TOKEN', jwt)
                             this.$router.push("/index")
                         })
+
                     } else {
                         console.log('error submit!!');
                         return false;
@@ -100,7 +106,8 @@
 </script>
 
 <style scoped>
-    .el-row{
+
+    .el-row {
         background-color: #fafafa;
         height: 100vh;
         display: flex;
@@ -109,7 +116,7 @@
         justify-content: center;
     }
 
-    .el-divider{
+    .el-divider {
         height: 200px;
     }
 

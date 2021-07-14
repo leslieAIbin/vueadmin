@@ -1,7 +1,7 @@
-package com.markerhub.security;
+package com.leslie.security;
 
-import com.markerhub.entity.SysUser;
-import com.markerhub.service.SysUserService;
+import com.leslie.entity.SysUser;
+import com.leslie.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;

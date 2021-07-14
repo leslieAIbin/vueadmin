@@ -1,4 +1,4 @@
-package com.markerhub.common.exception;
+package com.leslie.common.exception;
 
 import org.springframework.security.core.AuthenticationException;
 

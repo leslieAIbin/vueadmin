@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ea57f3a-0a23-4749-88f2-f550cf04dea4" name="Default Changelist" comment="" />
+    <list default="true" id="1ea57f3a-0a23-4749-88f2-f550cf04dea4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/common/lang/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/VueadminJavaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/VueadminJavaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/common/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/common/lang/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/common/lang/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/java/com/leslie/utils/RedisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VueAdmin-java/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/VueAdmin-java/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +38,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1uzA7EXvnBjhjUxwzAPqONG7cqF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/vueadmin-vue/src" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
@@ -60,10 +87,27 @@
       <workItem from="1625828905495" duration="8531000" />
       <workItem from="1625897531134" duration="13669000" />
       <workItem from="1625983446596" duration="10319000" />
+      <workItem from="1626000199842" duration="1250000" />
+      <workItem from="1626069905280" duration="18000" />
+      <workItem from="1626158095226" duration="93000" />
+      <workItem from="1626160494421" duration="57000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

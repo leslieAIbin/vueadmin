@@ -2,7 +2,7 @@ import axios from "axios";
 import router from "./router";
 import Element from "element-ui";
 // 拦截器
-// axios.defaults.baseURL = "http://localhost:8081"  //全局定义UI
+axios.defaults.baseURL = "http://localhost:8081"  //全局定义UI
 
 const request = axios.create({
     timeout: 5000,  // ms
@@ -18,7 +18,8 @@ request.interceptors.request.use(config => {
 })
 
 // 返回信息
-request.interceptors.response.use( response => {
+request.interceptors.response.use(
+    response => {
         console.log("response ->" + response)
         let res = response.data
 

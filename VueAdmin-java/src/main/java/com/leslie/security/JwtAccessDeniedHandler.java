@@ -1,7 +1,7 @@
-package com.markerhub.security;
+package com.leslie.security;
 
 import cn.hutool.json.JSONUtil;
-import com.markerhub.common.lang.Result;
+import com.leslie.common.lang.Result;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.stereotype.Component;
